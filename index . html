@@ -1,1 +1,58 @@
-
+<!DOCTYPE html><html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GODSON100 - Accueil</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f2f5f9;color:#172033}
+header{background:#101c35;color:white;text-align:center;padding:25px 12px}
+header h1{margin:0;font-size:32px}
+header p{margin:8px 0 0;color:#d4def2}
+nav{background:#173b70;padding:14px;text-align:center}
+nav a{color:white;text-decoration:none;margin:0 10px;font-weight:bold}
+.hero{padding:40px 20px;text-align:center;background:linear-gradient(135deg,#dceaff,#fff)}
+.hero h2{font-size:28px;color:#173b70}
+.hero p{line-height:1.6}
+.button{display:inline-block;background:#087f5b;color:white;padding:13px 20px;border-radius:8px;text-decoration:none;font-weight:bold;margin-top:10px}
+main{max-width:850px;margin:auto;padding:20px}
+.card{background:white;padding:22px;border-radius:14px;margin:18px 0;box-shadow:0 3px 12px #0000000d}
+.card h3{color:#173b70}
+footer{background:#101c35;color:white;text-align:center;padding:22px;margin-top:30px}
+</style>
+</head>
+<body>
+<header>
+<h1>GODSON100</h1>
+<p>Bienvenue sur mon site officiel</p>
+</header>
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#photos">Photos</a>
+<a href="#videos">Vidéos</a>
+<a href="#contact">Contact</a>
+</nav>
+<section class="hero" id="accueil">
+<h2>Bienvenue chez GODSON100 !</h2>
+<p>Retrouve ici mes actualités, mes photos et mes vidéos.</p>
+<a class="button" href="#photos">Découvrir mes contenus</a>
+</section>
+<main>
+<section class="card" id="photos">
+<h3>📸 Mes photos</h3>
+<p>Mes plus belles photos seront publiées ici prochainement.</p>
+</section>
+<section class="card" id="videos">
+<h3>🎬 Mes vidéos</h3>
+<p>Retrouve bientôt mes vidéos et mes publications.</p>
+</section>
+<section class="card" id="contact">
+<h3>📞 Contact</h3>
+<p>Bienvenue dans l'univers GODSON100.</p>
+</section>
+</main>
+<footer>
+<p>© 2026 GODSON100 — Tous droits réservés.</p>
+</footer>
+</body>
+</html>
